@@ -2,7 +2,7 @@
 private class MimeHelperTest {
 
   @isTest
-  private static test() {
+  private static void test() {
     System.assertEquals('png', MimeHelper.getExtension('image/png'));
   }
 
